@@ -168,7 +168,7 @@ header("Access-Control-Allow-Headers: Origin, Content-Type, Accept, Authorizatio
                                 type="submit" 
                                 name="action" 
                                 class="col-sm-12 btn btn-danger" 
-                                value="<?=$key2?>"
+                                value="<?=$key . ' ' . $key2?>"
                                 onclick = "enter('<?=$key?>', '<?=$key2?>')"
                             ?>
                             <?php
